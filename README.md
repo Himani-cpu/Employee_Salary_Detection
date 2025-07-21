@@ -76,5 +76,22 @@ Job Title: Select from trained list (Label encoded)
 
 Years of Experience: Integer [0–40]
 
+📊 Model Comparison Output
+
+You’ll find a downloadable table for all models tested, showing:
+
+R² Score (Goodness of Fit)
+
+MAE (Mean Absolute Error)
+
+RMSE (Root Mean Squared Error)
+
+📁 Notes
+
+Ensure .pkl files (models and encoders) are in the same directory as the app.
+
+You must include all class labels in encoders.pkl used during training.
+
+
 
 

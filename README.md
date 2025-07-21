@@ -36,7 +36,7 @@ This is a **Streamlit web application** to predict the **Salary of an Employee**
  
  │
  
- ├── salary_prediction_app.py # Main Streamlit app
+ ├── main.py # Main Streamlit app
  
  ├── random_forest_model.pkl # Trained Random Forest model
  

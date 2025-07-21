@@ -1,2 +1,55 @@
-# Employee_Salary_Detection
-This Streamlit web application predicts the **salary of an employee** based on various personal and job-related attributes. It uses multiple regression models — **Random Forest**, **XGBoost**, and **Linear Regression** — and includes **SHAP explainability**, bulk predictions, and model comparison features.
+# 💼 Employee Salary Prediction App
+
+
+This is a **Streamlit web application** to predict the **Salary of an Employee** based on job and personal attributes like age, gender, job title, education level, and experience. It uses **Multiple Regression Models** including:
+
+✅ Random Forest Regressor
+
+✅ XGBoost Regressor
+
+✅ Linear Regression
+
+
+## 🚀 Features
+
+🔢 Input employee details via UI
+
+📈 Switch between different ML models
+
+💰 Predict salary instantly
+
+📊 Compare model performance (R² Score, MAE, RMSE)
+
+📄 Download evaluation summary CSV
+
+✅ Encoded input data preview
+
+🧠 Trained model loading with `.pkl` files
+
+🧠 Uses pre-saved label encoders
+
+
+
+## 📂 Project Structure
+
+ Employee_Salary_Detection/
+ │
+ ├── salary_prediction_app.py # Main Streamlit app
+ ├── random_forest_model.pkl # Trained Random Forest model
+ ├── xgboost_model.pkl # Trained XGBoost model
+ ├── linear_model.pkl # Trained Linear Regression model
+ ├── encoders.pkl # Contains all label encoders
+ ├── model_evaluation_summary.csv # Evaluation matrix with R², MAE, RMSE
+ ├── requirements.txt # All required Python packages
+
+
+## ▶️ How to Run the App
+
+### 1. Clone the repository or move to the app folder
+```bash
+cd Employee_Salary_Detection
+
+### 2. Install Required Packages
+
+
+
